@@ -1,0 +1,9 @@
+{
+    "mongo": {
+        "url": "mongodb://localhost:27017/surveyapp"
+    },
+    "server": {
+        "port": 3000,
+        "salt_round": 12
+    }
+}
