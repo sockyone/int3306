@@ -1,4 +1,5 @@
-const Schema = require("mongoose").Schema;
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 
 const userSchema = new Schema({
     username: {
@@ -13,5 +14,9 @@ const userSchema = new Schema({
         type: String,
         required: true,
         minlength: [10, 'Name must have at least 10 character']
-    } 
+    }
 });
+
+const UserModel = mongoose.model('User', userSchema);
+
+module.exports = UserModel;
