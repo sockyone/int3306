@@ -10,10 +10,17 @@ const userSchema = new Schema({
         type: String,
         required: true,
     },
-    name: {
+    firstName: {
         type: String,
-        required: true,
-        minlength: [10, 'Name must have at least 10 character']
+        required: true
+    },
+    lastName: {
+        type: String,
+        required: true
+    },
+    createdDate: {
+        type: Date,
+        default: Date.now
     }
 });
 

@@ -5,5 +5,7 @@
     "server": {
         "port": 3000,
         "salt_round": 12
-    }
+    },
+    "secretKey": "surveyApp",
+    "saltRounds": 10
 }

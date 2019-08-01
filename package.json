@@ -1,0 +1,30 @@
+{
+  "name": "survey-backend",
+  "version": "1.0.0",
+  "description": "Backend for int3306",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "brcypt": "^1.0.1",
+    "config": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sockyone/int3306.git"
+  },
+  "author": "Nam Phan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sockyone/int3306/issues"
+  },
+  "homepage": "https://github.com/sockyone/int3306#readme"
+}
