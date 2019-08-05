@@ -55,7 +55,8 @@ router.post("/sign", (req, res) => {
         if (err) {
             res.json({
                 code: false,
-                reason: "Can not connect to database"
+                reason: "Can not connect to database",
+                payload: {}
             });
         } else {
             if (result) {
